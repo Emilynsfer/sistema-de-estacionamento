@@ -49,10 +49,11 @@ namespace DesafioFundamentos.Models
 
             if (veiculos.Any())
             {
-               
+               Console.WriteLine("Os veículos estacionados são:");
+                
                for(int contador = 0; contador < veiculos.Count; contador++)
                {
-                     Console.WriteLine($"Os veículos estacionados são: {veiculos[contador]}");
+                     Console.WriteLine($"{veiculos[contador]}");
                }
                 
             }
